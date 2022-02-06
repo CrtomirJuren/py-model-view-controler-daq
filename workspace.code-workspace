@@ -1,11 +1,17 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".",
 		}
     ],
     "settings": {
         "python.terminal.activateEnvironment": true,
-        "python.defaultInterpreterPath": "C:/ProgramData/Anaconda3/envs/pftl/python.exe"
+        "python.defaultInterpreterPath": "C:/ProgramData/Anaconda3/envs/pftl/python.exe",
+        // Specify .env file location in the root folder of your workspace
+        "python.envFile": "${workspaceFolder}/.env",
+        // Modify PYTHONPATH to add current folder
+        "terminal.integrated.env.windows": {
+            "PYTHONPATH": "${workspaceFolder}"
+        }       
     }
 }

@@ -1,0 +1,29 @@
+User:
+  name: crtomir 
+
+DAQ:
+  name: AnalogDaq
+  # name: SimDaq
+  port: COM6
+
+Scan:
+  start: 0V
+  stop: 3.3V
+  # step: 100mV NOT USED
+  num_steps: 100
+  channel_out: 0
+  channel_in: 0
+  delay: 100ms
+
+Saving:
+  folder: C:\TestData
+  filename: test.csv
+  timestamp: True
+  suffix: True
+
+Experiment:
+  list:
+  - first
+  - second
+  - third
+  name: This is a test Experiment
