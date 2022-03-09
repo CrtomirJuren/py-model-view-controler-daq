@@ -18,7 +18,7 @@ from src.model.experiment import Experiment
 
 logger = logging.getLogger(__name__)
 
-# Screen resolution
+# Screen resolution 
 res_W = 1920
 res_H = 1080
 win_W = 800
@@ -133,9 +133,6 @@ class MainWindow(QMainWindow):
 
     # slot
     def update_plot(self):
-        # x = self.experiment.scan_range
-        # y = 
-
         self.plot.setData(self.experiment.scan_range.m_as(V),
                           self.experiment.scan_data.m_as(V))
 

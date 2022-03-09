@@ -2,8 +2,8 @@ User:
   name: crtomir 
 
 DAQ:
-  name: AnalogDaq
-  # name: SimDaq
+  # name: AnalogDaq
+  name: SimDaq
   port: COM6
 
 Scan:
