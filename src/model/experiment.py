@@ -3,9 +3,9 @@
 """
 from concurrent.futures import thread
 from src import *
-import pyqtgraph as pg
+import pyqtgraph as pg #conda install -c anaconda pyqtgraph
 from datetime import datetime
-import yaml
+import yaml #conda install -c anaconda yaml
 import csv
 import threading
 
